@@ -1,0 +1,38 @@
+{
+    "name": "hyder/laravel-utils",
+    "description": "Utilities for Laravel applications, including various helpful features such as zip file creation, enum handling, and more.",
+    "keywords": [
+        "laravel-utils",
+        "hyder",
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Tofayel Hyder Abhi",
+            "email": "tofayelhyder71@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "version": "0.0.1",
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hyder\\LaravelUtils\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hyder\\LaravelUtils\\LaravelUtilsServiceProvider"
+            ]
+        },
+        "files": [
+            "README.md"
+        ]
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
