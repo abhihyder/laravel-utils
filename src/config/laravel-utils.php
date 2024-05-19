@@ -8,4 +8,8 @@ return [
         // Namespace for enums
         'namespace' => 'App\Enums',
     ],
+    'zip' => [
+        // Directory path where zip will be save
+        'to_dir' => storage_path('zips'),
+    ],
 ];
